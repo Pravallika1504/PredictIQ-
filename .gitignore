@@ -1,20 +1,20 @@
-# Python
-__pycache__/
-*.py[cod]
+
+# Python virtual environments
 venv/
 .venv/
 backend/venv/
 
-# Node.js
-node_modules/
-frontend/node_modules/
+# Python cache files
+__pycache__/
+*.py[cod]
 
-# Frontend build
-frontend/dist/
-
-# Environment variables
+# Environment variables and secrets
 .env
 .env.*
+
+# Keep dependency manifests
+!requirements.txt
+!backend/requirements.txt
 
 
 # Local databases
