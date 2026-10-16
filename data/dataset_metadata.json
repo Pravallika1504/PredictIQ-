@@ -1,0 +1,44 @@
+{
+  "filename": "PredictIQ_Sales_Dataset_Compatible.csv",
+  "is_uploaded": true,
+  "rows": 1200,
+  "columns": 17,
+  "column_names": [
+    "Order_Date",
+    "Product",
+    "Category",
+    "Region",
+    "Quantity",
+    "Sales",
+    "Profit",
+    "Order_ID",
+    "Sales_Channel",
+    "Unit_Price_INR",
+    "Discount_Percent",
+    "Revenue_INR",
+    "Cost_INR",
+    "Profit_INR",
+    "Revenue",
+    "Amount",
+    "Unit_Price"
+  ],
+  "date_range": [
+    "2024-01-04",
+    "2025-12-31"
+  ],
+  "total_sales": 4609782.29,
+  "total_profit": 921956.62,
+  "total_quantity": 2344,
+  "average_order": 3841.49,
+  "detected_columns": {
+    "date": "Order_Date",
+    "sales": "Sales",
+    "quantity": "Quantity",
+    "product": "Product",
+    "category": "Category",
+    "region": "Region",
+    "unit_price": "Unit_Price"
+  },
+  "duplicates_removed": 0,
+  "updated_at": "2026-10-16T15:51:47.284097"
+}
