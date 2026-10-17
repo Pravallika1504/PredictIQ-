@@ -1,8 +1,8 @@
 {
-  "filename": "PredictIQ_Sales_Dataset_Compatible.csv",
+  "filename": "predictiq_sales_dataset_compatible (1).csv",
   "is_uploaded": true,
   "rows": 1200,
-  "columns": 17,
+  "columns": 18,
   "column_names": [
     "Order_Date",
     "Product",
@@ -18,18 +18,19 @@
     "Revenue_INR",
     "Cost_INR",
     "Profit_INR",
+    "Payment_Method",
     "Revenue",
     "Amount",
     "Unit_Price"
   ],
   "date_range": [
-    "2024-01-04",
-    "2025-12-31"
+    "2024-01-01",
+    "2026-09-29"
   ],
-  "total_sales": 4609782.29,
-  "total_profit": 921956.62,
-  "total_quantity": 2344,
-  "average_order": 3841.49,
+  "total_sales": 3707578.81,
+  "total_profit": 741515.89,
+  "total_quantity": 2375,
+  "average_order": 3089.65,
   "detected_columns": {
     "date": "Order_Date",
     "sales": "Sales",
@@ -40,5 +41,5 @@
     "unit_price": "Unit_Price"
   },
   "duplicates_removed": 0,
-  "updated_at": "2026-10-16T15:51:47.284097"
+  "updated_at": "2026-10-17T18:28:48.850945"
 }
